@@ -14,3 +14,11 @@ noBtn.addEventListener("mouseenter", () => {
   noBtn.style.left = x + "px";
   noBtn.style.top = y + "px";
 });
+
+document.querySelector(".yes-btn").onclick = () => {
+  window.open(
+    "https://web.whatsapp.com/send?phone=919268632278&text=I%20said%20YES%20💖",
+    "_blank"
+  );
+};
+
